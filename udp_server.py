@@ -8,7 +8,7 @@ import socket
 """
 Creating a socket object.
 @:param AF_INET -> Specifies that we'll be using the IPv4 address family.
-@:param SOCK_STREAM -> Specifies that we'll be suing a UDP socket.
+@:param SOCK_DGRAM -> Specifies that we'll be suing a UDP socket.
 """
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 print("Socket successfully created")

@@ -15,6 +15,7 @@ print("Socket successfully created")
 
 # Specify port number.
 PORT = 8080
+
 BUFFER_SIZE = 1024
 
 """
